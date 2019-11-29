@@ -9,6 +9,12 @@
         <link rel="shortcut icon" href="https://battleoil.github.io/images/icon/favicon.png">
         <style>
             #header{
+              position: fixed;
+              top: 0;
+              display: flex;
+              justify-content: space-around;
+              align-items: center;
+              background-color: #eee;
               z-index: 10;
               padding: 0px 10vh;
             }
@@ -18,13 +24,11 @@
             #nav-bar ul{
                 list-style: none;
                 display: flex;
-                margin: 0px;
-                text-align: center;
+                flex-direction: row;
+                justify-content: space-around;
             }
             #nav-bar ul li{
                 padding: 0px 1vh;
-                text-align: center;
-                display: inline-block;
             }
         </style>
     </head>
