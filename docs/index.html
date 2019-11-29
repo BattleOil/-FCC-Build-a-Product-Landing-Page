@@ -8,36 +8,50 @@
         <!--same below-->
         <link rel="shortcut icon" href="https://battleoil.github.io/images/icon/favicon.png">
         <style>
+            body{
+                font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif,Microsoft YaHei UI;
+            }
             #header{
               position: fixed;
-              top: 0;
-              display: flex;
-              justify-content: space-around;
-              align-items: center;
-              background-color: #eee;
-              z-index: 10;
-              padding: 0px 10vh;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eee;
+    z-index: 10;
+    padding: 0px 10vh;
+    height: 50px;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 1px 5px #C5C5C5, 5px 1px 5px #C5C5C5, -5px 1px 5px #c5c5c5;
             }
             #nav-bar{
                 float: right;
             }
             #nav-bar ul{
-                list-style: none;
-                display: flex;
-                flex-direction: row;
-                justify-content: space-around;
+                    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
             }
             #nav-bar ul li{
                 padding: 0px 1vh;
             }
+            a.nav-link {
+    text-decoration: none;
+    color: black;
+}
         </style>
     </head>
 
     <body>
         <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
         <header id="header">
-            <img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Windows_10_Logo.svg/320px-Windows_10_Logo.svg.png" height="30px" alt="company logo">
-            <nav id="nav-bar">
+            <div id="img">
+                <img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Windows_10_Logo.svg/320px-Windows_10_Logo.svg.png" height="30px" alt="company logo">
+            </div>
+                <nav id="nav-bar">
                 <ul>
                     <li><a class="nav-link" href="#feature">Feature</a></li>
                     <li><a class="nav-link" href="#video">Why choose windows?</a></li>
