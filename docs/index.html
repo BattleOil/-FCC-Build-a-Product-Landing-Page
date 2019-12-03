@@ -43,7 +43,7 @@
                 color: black;
 }
             main{
-                margin:50px;
+                margin-top:50px;
             }
             #title{
                 width: 100%;
@@ -73,7 +73,16 @@
                 color: #FFF;
                 font-size: 5vh;
                 text-transform: uppercase;
+                z-index:3;
+                text-align: center;
             }
+            #middle{
+                display: flex;
+                margin-top: 0.5vh;
+                justify-content: space-between;
+                align-items: center;
+            }
+            
         </style>
     </head>
 
@@ -95,7 +104,7 @@
             <div id="title">
                 <h1>Do great things</h1>
             </div>
-            <div>
+            <div id="middle">
                 <div id="feature">
                     <ul>
                         <li>Organize your memories</li>
