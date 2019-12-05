@@ -9,6 +9,7 @@
         <link rel="shortcut icon" href="https://battleoil.github.io/images/icon/favicon.png">
         <style>
             body{
+                margin: 0px;
                 font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif,Microsoft YaHei UI;
             }
             #header{
@@ -101,7 +102,12 @@
                 max-height: 220px;
                 text-align: center;
             }
-            
+            footer{
+                background-color:#3D7EFF;
+            }
+            .1{
+                background-color:#3165CC;
+            }
         </style>
     </head>
 
@@ -137,26 +143,26 @@
             </div>
             <div id="pricing">
                 <div id="normal">
-                    <p>Windows10 Home</p>
+                    <p><strong>Windows10 Home</strong></p>
                     <p>$99</p>
                     <button>Learn More</button>
                 </div>
                 <div id="Pro">
-                    <p>Windows10 Pro</p>
-                    <div>$199</div>
+                    <p><strong>Windows10 Pro</strong></p>
+                    <p>$199</p>
                     <button>Learn More</button>
                 </div>
             </div>
-            <div>
+            </main>
+        <footer>
+            <div id="email">
                 <h3>Don't missed the lastest news</h3>
                 <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
                     <input name="email" id="email" type="email" title="Please fill out this field" placeholder="Please leave your emaill address" required>
                     <input type="submit" id="submit" value="Confirm"/>
                 </form>
             </div>
-        </main>
-        <footer>
-            <p>This page is use for freecodecamp responsive web design projects.All the projects and contact details given are not real.</p>
+            <p class="1">This page is use for freecodecamp responsive web design projects.All the projects and contact details given are not real.</p>
         </footer>
     </body>
 </html>
