@@ -47,6 +47,7 @@
                 margin-top:50px;
             }
             #title{
+                max-height:500px;
                 width: 100%;
                 height: 65vh;
                 justify-content: space-around;
@@ -60,6 +61,7 @@
                 position: relative;
             }
             #title:after{
+                max-height:500px;
                 height: 65vh;
                 content: "";
                 background-size: inherit;
@@ -93,9 +95,10 @@
                 justify-content: space-evenly;
             }
             #pricing div{
+                padding-bottom: 10px;
                 font-size: 2vh;
                 height: 30vh;
-                width: 36vh;
+                width: auto;
                 border: 2px solid gray;
                 border-radius: 5px;
                 max-width: 180px;
@@ -103,20 +106,27 @@
                 text-align: center;
             }
             #email1{
-                height: 15vh;
+                height: 10vh;
                 text-align: center;
                 padding: 1vh;
             }
             footer{
-                padding: 0.2vh 2vh;
                 margin-top: 3.5vh;
                 background-color:#3D7EFF;
             }
             .test1{
+                width: 100%;
+                height: 3vh;
+                display: table;
                 background-color:#3165CC;
             }
             @media (max-width:820px){
-                
+                #title{
+                    max-height:200px;
+                }
+                #title:after{
+                    max-height:200px;
+                }
             }
         </style>
     </head>
